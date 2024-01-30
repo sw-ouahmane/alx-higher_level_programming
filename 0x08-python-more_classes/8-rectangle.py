@@ -60,7 +60,7 @@ class Rectangle:
             return (0)
         return ((self.__width * 2) + (self.__height * 2))
 
-   @staticmethod
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Return the Rectangle with the greater area.
 
@@ -102,4 +102,4 @@ class Rectangle:
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
-        print("Bye rectangle...") 
+        print("Bye rectangle...")
